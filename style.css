@@ -5,28 +5,28 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.top-section {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa img {
+.top-section img {
     width: 100%;
 }
 
-.aaa .more_inf {
+.top-section .more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-    .aaa {
+    .top-section {
         text-align: center;
     }
 }
 
-.centered-main-page-element {
+.central-section {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -151,7 +151,7 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through; color: #888;
 }
 
 /* Edit Task */
