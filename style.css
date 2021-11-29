@@ -1,5 +1,14 @@
 /* Basic Style */
-body {
+@media (max-width:768px) {
+
+    .top-section {
+        text-align: center;
+    }
+    
+}
+
+
+.page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -20,12 +29,6 @@ body {
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-    .top-section {
-        text-align: center;
-    }
-}
-
 .central-section {
     display: block;
     width: 500px;
@@ -42,7 +45,8 @@ body {
     display: flex;
 }
 
-ul {
+.incomplete-tasks,
+.completed-tasks {
     margin: 0;
     padding: 0px;
 }
