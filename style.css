@@ -40,7 +40,7 @@
 .completed-tasks {
     margin: 0;
     padding: 0px;
-  list-style: none;
+    list-style: none;
 }
 
 .task-row-wrapper-button,
@@ -73,9 +73,9 @@
 }
 
 .task {
-     width: 56%;
-     display: inline-block;
-     flex-grow: 1;
+    width: 56%;
+    display: inline-block;
+    flex-grow: 1;
     margin: 0;
     font-size: 18px;
     line-height: 18px;
